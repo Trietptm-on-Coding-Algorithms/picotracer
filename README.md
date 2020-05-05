@@ -4,9 +4,9 @@
 
 ### Building
 
-Just type `make` assuming your `Pin` instalation directory is `/opt/pin`. If it is not adjust the `Makefile`.
+Just type `make` assuming your `Pin` instalation directory is `/opt/pin`. If it is not, adjust the `Makefile`.
 
-Note: This `Pintool` was only tested with `Pin` versions 3.13.98189 and 3.6-97554 on **Linux x64**.
+Note: This `Pintool` was only tested with `Pin` versions 3.13-98189 and 3.6-97554 on **Linux x64**.
 
 ### Running
 
@@ -51,5 +51,5 @@ Syscall      Stats
  257         2 (7.14%)
 ```
 
-Warning: `Pin` will try to find symbols in a multitude of ways, in case it fails the API name returned is a 'blank' string.
+**Warning**: `Pin` will try to find symbols in a multitude of ways, in case it fails the API name returned is a 'blank' string.
 
